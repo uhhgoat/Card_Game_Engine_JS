@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<!--Matyas Fenyves-->
+<html>
+	<head>
+		<title>Card Engine Test</title>
+		<style>
+			
+		</style>
+		<script type = "text/javascript" src = "CardEngine.js">
+		</script>
+		
+		<script>
+			function fillCardImages()
+			{
+				var deck = generateStandardDeck() ;
+				deck = shuffle(deck) ;
+				imageList = document.getElementsByTagName("img") ;
+				for(i = 0 ; i < deck.length ; i++)
+				{
+					imageList[i].src = extraction(deck[i],IMAGE) ;
+				}
+			}
+		</script>
+	</head>
+	<body onload = "fillCardImages() ;">
+		<img />
+		<img />
+		<img />
+		<img />
+		<img />
+		<img />
+		<img />
+		<img />
+		<img />
+		<img />
+		<img />
+		<img />
+		<img />
+		<img />
+		<img />
+		<img />
+		<img />
+		<img />
+		<img />
+		<img />
+		<img />
+		<img />
+		<img />
+		<img />
+		<img />
+		<img />
+		<img />
+		<img />
+		<img />
+		<img />
+		<img />
+		<img />
+		<img />
+		<img />
+		<img />
+		<img />
+		<img />
+		<img />
+		<img />
+		<img />
+		<img />
+		<img />
+		<img />
+		<img />
+		<img />
+		<img />
+		<img />
+		<img />
+		<img />
+		<img />
+		<img />
+		<img />
+	</body>
+</html>
